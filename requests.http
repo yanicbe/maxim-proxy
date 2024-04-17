@@ -1,0 +1,9 @@
+GET http://localhost:3000/api/v0
+Authorization: 914C1A2C26C7B462722268DFE737D
+x-forwarded-for: 8.8.8.8
+Origin: https://www.winno.ch/
+
+###
+GET https://novpn.ch/api/v0
+Authorization: 914C1A2C26C7B462722268DFE737D
+Origin: https://www.winno.ch/
