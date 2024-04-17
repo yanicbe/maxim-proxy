@@ -31,9 +31,9 @@ interface NextResponseLandingPage {
 export default async (req: Request) => {
   const url = new URL(req.url)
   if (url.hostname === "kellysecrets.com") {
-    return createRedirectReponse("https://onlykellyyy.com/s=kellysecrets")
+    return createRedirectReponse("https://onlykellyyy.com?s=kellysecrets")
   } else if (url.hostname === "playwithkelly.com") {
-    return createRedirectReponse("https://onlykellyyy.com/s=playwithkelly")
+    return createRedirectReponse("https://onlykellyyy.com?s=playwithkelly")
   } else {
     return createRedirectReponse("https://onlykellyyy.com")
   }
