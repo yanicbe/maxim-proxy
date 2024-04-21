@@ -51,11 +51,8 @@ function createRedirectReponse(url: string) {
   })
 }
 
-// onlykellyyy.com
-// https://onlyfans.com/cutiekellyyy/c13
+// laylababy.com
+// https://onlyfans.com/laylajones03/c8
 
-// kellysecrets.com
-// https://onlyfans.com/cutiekellyyy/c14
-
-// playwithkelly.com
-// https://onlyfans.com/cutiekellyyy/c15
+// onlyylayla.com
+// https://onlyfans.com/laylajones03/c7
