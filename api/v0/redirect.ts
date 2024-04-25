@@ -36,6 +36,8 @@ export default async (req: Request) => {
     return createRedirectReponse("https://onlykellyyy.com?s=playwithkelly")
   } else if (url.hostname === "laylababy.com") {
     return createRedirectReponse("https://onlyylayla.com?s=laylababy")
+  } else if (url.hostname === "anayaonlyfriends.com") {
+    return createRedirectReponse("https://onlyanaya.com?s=anayaonlyfriends")
   } else {
     return createRedirectReponse("https://onlykellyyy.com")
   }
@@ -53,8 +55,9 @@ function createRedirectReponse(url: string) {
   })
 }
 
-// laylababy.com
-// https://onlyfans.com/laylajones03/c8
 
-// onlyylayla.com
-// https://onlyfans.com/laylajones03/c7
+// onlyanaya.com
+// https://onlyfans.com/youranaya/c7
+
+// anayaonlyfriends.com
+// https://onlyfans.com/youranaya/c8
