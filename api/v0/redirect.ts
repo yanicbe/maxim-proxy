@@ -36,6 +36,8 @@ export default async (req: Request) => {
     return createRedirectReponse("https://onlykellyyy.com?s=playwithkelly")
   } else if (url.hostname === "onlyykellyy.com") {
     return createRedirectReponse("https://onlykellyyy.com?s=onlyykellyy")
+  } else if (url.hostname === "kellyyyy.com") {
+    return createRedirectReponse("https://onlykellyyy.com?s=kellyyyy")
   } else if (url.hostname === "kellytylor.com") {
     return createRedirectReponse("https://onlykellyyy.com?s=kellytylor")
   } else if (url.hostname === "secretkellytylr.com") {
